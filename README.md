@@ -14,7 +14,8 @@ graph BR
             Common1(Common)
             entity11(Entity1)
             entity1N(EntityN)
-          end
+            entity1aN(EntityA)
+        end
 
           subgraph BoundedContextN
             CommonN(Common)

@@ -39,4 +39,4 @@ graph BR
 
 Example 1: Write in  mermaid (add)
 
-![Example](/docs/images/a.png)
+![Example](/docs/diagrams/images/a.png)

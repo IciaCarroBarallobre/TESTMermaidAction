@@ -2,13 +2,13 @@
 
 name: Mermaid-Example1
 
+
 on:
-  pull_request:
-    branches:
-      - main
+  push:
     paths:
       - '**/*.mermaid'
       - '**/*.md'
+
 
 jobs:
   render-md-mermaid:

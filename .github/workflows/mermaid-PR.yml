@@ -4,9 +4,10 @@ name: 'Compile Mermaid'
 
 on:
   push:
+    branches:
+      - main 
     paths:
       - '**/*.mermaid'
-      - '**/*.md'
 
 jobs:
   build:

@@ -39,6 +39,6 @@ graph BR
 
 Example 1: Write in  mermaid (add)
 
-Escribir = <ubicacion>/nome-mermaid.png
+Escribir = \<ubicacion\>/nome-mermaid.png
 
 ![Example](/docs/diagrams/a-mermaid.png)

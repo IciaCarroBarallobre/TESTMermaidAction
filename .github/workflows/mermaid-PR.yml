@@ -8,6 +8,7 @@ on:
       - main 
     paths:
       - '**/*.mermaid'
+      - '**/*.md'      
 
 jobs:
   build:
@@ -37,6 +38,7 @@ jobs:
         env:
           HIDE_CODEBLOCKS: 1
           ABSOLUTE_IMAGE_LINKS: 1
+          OUTPUT_FILE_TYPE: "png"
 
       - name: show changes
         run: |
